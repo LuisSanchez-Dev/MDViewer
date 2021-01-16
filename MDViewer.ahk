@@ -12,6 +12,7 @@ if (file) {
     file_content := StrReplace(file_content, "`n", "\n")
     file_content := StrReplace(file_content, "`n", "\n")
     file_content := StrReplace(file_content, "'", "\'")
+    file_content := file_content "</br></br></br></br></br></br></br></br></br></br>"
 }
 
 css := "res://" A_ScriptFullPath "/10/github-markdown.css"
